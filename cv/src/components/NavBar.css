@@ -1,0 +1,21 @@
+.navbar-menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 8vh;
+    padding: 2rem;
+    background-color: #9DFBC8;
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 3rem;
+    width: 30vw;
+}
+
+.navbar-container > li {
+    flex: 1;
+}
+

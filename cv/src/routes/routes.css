@@ -1,0 +1,13 @@
+
+.hero-section {
+    width: 100vw;
+    height: 92vh;
+
+    background: linear-gradient( white,#F5F186, #9DFBC8);
+}
+
+.card {
+    height: 500px;
+    width: 500px;
+    /* background-color: red; */
+}
