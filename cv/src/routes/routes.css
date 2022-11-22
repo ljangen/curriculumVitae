@@ -2,12 +2,30 @@
 .hero-section {
     width: 100vw;
     height: 92vh;
+    background-color: #32ef8a65;
+}
 
-    background: linear-gradient( white,#F5F186, #9DFBC8);
+.card-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 .card {
-    height: 500px;
-    width: 500px;
-    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    height: 200px;
+    width: 350px;
+    padding: 4rem;
+    border: black solid 1px;
+    border-radius: 2rem;
+}
+
+.green-text {
+    color: forestgreen;
+    text-decoration: underline black;
 }
